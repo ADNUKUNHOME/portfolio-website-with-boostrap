@@ -59,3 +59,16 @@ span
     color: orangered;
     border-bottom: 3px solid orangered;
 }
+
+.Contact 
+{
+    padding: 10px 28px;
+    background-color: aliceblue;
+    font-size: 16px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+}
