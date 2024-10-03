@@ -1,5 +1,61 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'poppins', sans-serif
 }
 
+.header
+{
+   position: fixed;
+   top: 0;
+   left: 0;
+   padding: 35px 12%;
+   width: 100%;
+   background-color: rgba(0, 0, 0, .8);
+   display: flex;
+   backdrop-filter: blur(10px);
+   justify-content: space-between;
+   align-items: center;
+   z-index: 100; 
+}
+
+.logo 
+{
+    font-size: 25px;
+    color: orangered;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.logo:hover
+{
+    color: orangered;
+    text-shadow: 0 0 25px orangered,
+                 0 0 50px orangered;
+    transform: scale(1.1);
+}
+
+span
+{
+    color: aliceblue;
+}
+
+.navbar a 
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: aliceblue;
+    margin: 0 25px;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active 
+{
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
