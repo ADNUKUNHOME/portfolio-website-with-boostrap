@@ -38,7 +38,7 @@
     transform: scale(1.1);
 }
 
-span
+.header span
 {
     color: aliceblue;
 }
@@ -71,4 +71,11 @@ span
     color: black;
     letter-spacing: 1px;
     transition: 0.3s ease;
+}
+
+.Contact:hover
+{
+    background-color: orangered;
+    color: aliceblue;
+    box-shadow: 0 0 25px orangered;
 }
