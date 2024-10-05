@@ -1,20 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
     font-family: 'poppins', sans-serif
 }
 
-.header
+#nav-bar
 {
    position: fixed;
    top: 0;
    left: 0;
    padding: 35px 12%;
    width: 100%;
-   background-color: rgba(0, 0, 0, .8);
+   background-color: rgba(0, 0, 0, 0.8);
    display: flex;
    backdrop-filter: blur(10px);
    justify-content: space-between;
@@ -22,15 +19,15 @@
    z-index: 100; 
 }
 
-.logo 
+.navbar-brand
 {
-    font-size: 25px;
-    color: orangered;
-    font-weight: 600;
-    transition: 0.3s ease;
+    font-size: 25px !important;
+    color: orangered !important;
+    font-weight: 600 !important;
+    transition: 0.3s ease !important;
 }
 
-.logo:hover
+.navbar-brand:hover
 {
     color: orangered;
     text-shadow: 0 0 25px orangered,
@@ -38,44 +35,62 @@
     transform: scale(1.1);
 }
 
-.header span
+span
 {
     color: aliceblue;
 }
 
-.navbar a 
-{
-    font-size: 18px;
-    font-weight: 500;
-    color: aliceblue;
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    font-size: 20px;
+    font-weight: 500 ;
+    color: aliceblue !important;
     margin: 0 25px;
     border-bottom: 1px solid transparent;
     transition: 0.3s ease;
+    float: right;
 }
 
-.navbar a:hover,
-.navbar a.active 
+.navbar-nav li a:hover,
+.navbar-nav li a.active 
 {
-    color: orangered;
+    color: orangered !important;
     border-bottom: 3px solid orangered;
 }
 
-.Contact 
+
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+
+
+.contact 
 {
     padding: 10px 28px;
-    background-color: aliceblue;
-    font-size: 16px;
+    background-color: aliceblue ;
+    font-size: 16px ;
     border: 2px solid transparent;
     border-radius: 8px;
     font-weight: 600;
     color: black;
     letter-spacing: 1px;
+    margin-left: 50px;
     transition: 0.3s ease;
 }
 
 .Contact:hover
 {
-    background-color: orangered;
+    background-color: orangered !important;
     color: aliceblue;
     box-shadow: 0 0 25px orangered;
 }
