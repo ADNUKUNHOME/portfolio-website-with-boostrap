@@ -6,7 +6,7 @@
 
 #nav-bar
 {
-   position: fixed;
+   position: sticky;
    top: 0;
    left: 0;
    padding: 35px 12%;
@@ -22,7 +22,7 @@
 .navbar-brand
 {
     font-size: 25px !important;
-    color: orangered !important;
+    color: aliceblue !important;
     font-weight: 600 !important;
     transition: 0.3s ease !important;
 }
@@ -37,7 +37,7 @@
 
 span
 {
-    color: aliceblue;
+    color: orangered;
 }
 
 .navbar-nav li {
