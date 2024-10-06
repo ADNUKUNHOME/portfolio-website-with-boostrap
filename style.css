@@ -57,7 +57,7 @@ span
     margin: 0 25px;
     border-bottom: 1px solid transparent;
     transition: 0.3s ease;
-    float: right;
+    float: left;
 }
 
 .navbar-nav li a:hover,
@@ -76,6 +76,7 @@ span
 
 .navbar-toggler {
     outline: none !important;
+    float: left;
 }
 
 
@@ -104,9 +105,8 @@ span
 
 #main
 {
-    padding: 0;
     margin-top: 60px;
-    margin-left: 0;
+    padding: 20px;
     justify-content: space-between;
 }
 
@@ -131,6 +131,7 @@ span
     height: 600px;
     gap: 4em ;
     align-content: center;
+    justify-content: center;
 }
 
 .btn-1
@@ -190,6 +191,7 @@ span
 #about
 {
     background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
 }
 
 .img-box img{
@@ -197,6 +199,11 @@ span
     border-radius: 400px;
     box-shadow: 0 0 25px orangered,
                 0 0 25px orangered;
+}
+
+.about-content
+{
+    align-content: center;
 }
 
 .about-content h3
