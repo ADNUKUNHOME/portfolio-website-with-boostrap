@@ -128,7 +128,6 @@ span
 
 .btns
 {
-    height: 600px;
     gap: 4em ;
     align-content: center;
     justify-content: center;
@@ -179,7 +178,6 @@ span
     border-radius: 400px;
     width: 400px;
     box-shadow: 0 0 25px orangered;
-
 }
 
 .image  img:hover{
@@ -264,4 +262,83 @@ span
     border-radius: 8px;
     font-size: 18px;
     resize: none;
+}
+
+/* Footer area of the web */
+
+#footer
+{
+    position: relative;
+    width: 100%;
+    padding: 30px 0;
+    background-color: black;
+    text-align: center;
+}
+
+#footer .social
+{
+    color: #fff;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+
+#footer .social a 
+{
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+    margin: 0 8px;
+    border: 2px solid orangered;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    box-shadow: 0 0 10px orangered,
+                0 0 10px orangered;
+    transition: 0.3s ease;
+}
+
+#footer .social a:hover
+{
+    transform: scale(1.2)translateY(-10px);
+    color: orangered;
+    border: 2px solid orangered;
+}
+
+#footer ul 
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+#footer ul li a 
+{
+    color: #fff;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+#footer ul li a:hover 
+{
+    border-bottom: 3px solid orangered;
+    text-decoration: none;
+}
+
+#footer ul li 
+{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+#footer .copyright
+{
+    margin-top: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
 }
