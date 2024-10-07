@@ -226,3 +226,42 @@ span
     padding: 10px;
     color: aliceblue;
 }
+
+
+/* contact fonm area of the web */
+
+#contact-form h2
+{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+}
+
+#contact-form form
+{
+    text-align: center;
+    margin: 1em auto;
+    margin-bottom: 3em;
+    max-width: 50em;
+}
+
+.input-box
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#contact-form form .input-box input,
+#contact-form form textarea
+{
+    width: 100%;
+    padding: 1.5em;
+    background-color: rgba(241, 241, 241);
+    color: black;
+    margin: 1em 0;
+    border-radius: 8px;
+    font-size: 18px;
+    resize: none;
+}
