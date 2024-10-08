@@ -342,3 +342,27 @@ span
     color: #fff;
     font-size: 12px;
 }
+
+/* SCROLLING BUTTON */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px; 
+    right: 30px;
+    z-index: 99;
+    border: none; 
+    outline: none;
+    background-color: orangered; 
+    color: rgb(8, 6, 6);
+    cursor: pointer; 
+    border-radius: 50%;
+    font-size: 35px;
+    padding-top: 12px;
+}
+  
+#myBtn:hover {
+    background-color: red; 
+}
