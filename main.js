@@ -1,3 +1,24 @@
+// form submission
+
+var form = document.getElementById('form');
+
+form.addEventListener('submit', function (event) {
+    event.preventDefault()
+
+    var username = document.getElementById('username').value
+    var email = document.getElementById('form-email').value
+
+    
+})
+
+
+
+
+
+
+
+// top scroll button actions
+
 let mybutton = document.getElementById("myBtn");
 
 window.onscroll = function() {scrollFunction()};
